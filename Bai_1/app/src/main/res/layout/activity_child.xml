@@ -13,13 +13,14 @@
         android:layout_height="200dp"
         android:background="#FDFD01"
         android:gravity="center"
-        android:text="@string/this_is_child_activity"
+        android:text="This is Child Activity"
         android:textColor="#017A46"
         android:textSize="24sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="HardcodedText" />
 
     <Button
         android:id="@+id/btn_main_activity"
@@ -27,11 +28,12 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="108dp"
         android:background="#D4D5D5"
-        android:text="@string/back_to_main_activity"
+        android:text="Back to Main Activity"
         android:textColor="#2C2E2D"
         android:textColorLink="#FFFFFF"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        tools:ignore="HardcodedText" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
